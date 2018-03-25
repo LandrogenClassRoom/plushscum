@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i,700');
+
+body {
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.container{
+	max-width: 1210px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.button{
+	display: inline-block;
+	padding: 16px 32px;
+	border: 1px solid #0f76b3;
+	font-size: 16px;
+	text-decoration: none;
+	color: #0f76b3;
+
+
+	transition: color .3s ease, background-color .3s ease;
+}
+
+.button:hover{
+	background-color: #118dd4;
+	color: #fff;
+}
+
+
+
+.site-header {
+	
+}
+
+	.site-header__top .container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	
+	.site-header__top{
+		border-bottom: 1px solid #f1f1f1;
+	}
+
+		.site-header__info {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		
+			.button--blue {
+				background-color: #0f76b3;
+				color: #fff;
+			}
+		
+			.button--blue:hover {
+				background-color: #118dd4;
+			}
+
+				.i-city{
+					display: inline-block;
+					background-image: url("../img/i-city.png");
+					background-repeat: no-repeat;
+					background-position: center center;
+					height: 21px;
+					width: 21px;
+				}
+			
+			.site-header__contacts{
+				display:flex;
+				flex-flow:column;
+				padding-right: 50px;
+				padding-left: 50px;
+			}
+
+				.site-header__time{
+					font-family: 'Fira Sans', sans-serif;
+					color: #7c7c7c;
+					font-size:12px;
+					font-weight: lighter;
+				}
+
+				.site-header__phone{
+					font-family: 'Fira Sans', sans-serif;
+					color: black;
+					font-size:21px;
+					text-decoration:none;
+				}
+
+				.site-header__phone:hover{
+					text-decoration:underline;
+				}
+
+				.site-header__mail{
+					font-family: 'Fira Sans', sans-serif;
+					color: #0f76b3;
+					font-size:14px;
+				}
+				.site-header__mail:hover{
+					color: #0a5480;
+				}
+
+			.i-phone{
+				display: inline-block;
+				background-image: url("../img/i-phone.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				height: 11px;
+				width: 11px;
+				margin-top: 10px;
+			}
+				
+	.site-header__nav .container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
+	
+	.site-header__nav{
+		border-bottom:3px solid #f1f1f1;
+	}
+		
+		.main-menu ul{
+			list-style-type: none;
+			padding-left: 0;
+			margin-left: 0;
+		}
+		
+		.main-menu li{
+			display: inline-block;
+			padding:22px 59px 18px 0;
+		}
+		
+		.main-menu a{
+			text-decoration: none;
+			color: black;
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+		.main-menu a:hover{
+			text-decoration: underline;
+		}
+		
+		.site-header__share{
+			font-family: 'Fira Sans', sans-serif;
+			font-size:12px;
+			color: #7c7c7c;
+			padding:35px 25px 37px 25px;
+			border-left: 1px solid #f1f1f1;
+			border-right: 1px solid #f1f1f1;
+		}
+		
+		.site-header__share i{
+			display: inline-block;
+			height: 21px;
+			width: 21px;
+			margin-bottom: -5px;
+			margin-left: 17px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			border-radius:20% 20%;
+		}
+		
+		.site-header__share i:hover{
+			background-color: #1298e5;
+		}
+			.i-fb{
+				background-image: url("../img/i-fb.png");
+			}
+			.i-tw{
+				background-image: url("../img/i-tw.png");
+			}
+			.i-inst{
+				background-image: url("../img/i-insta.png");
+			}
+			.i-yt{
+				background-image: url("../img/i-ty.png");
+			}
